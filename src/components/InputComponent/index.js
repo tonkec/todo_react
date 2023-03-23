@@ -8,7 +8,6 @@ const InputComponent = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     saveTodo(value);
-    console.log('here');
   };
   return (
     <>
